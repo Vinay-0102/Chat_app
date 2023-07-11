@@ -1,0 +1,66 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-image: linear-gradient(rgb(225, 225, 225), rgb(25, 108, 147));
+    height: 100vh;
+}
+
+.container {
+    max-width: 995px;
+    /* background-color: rgb(224, 44, 170); */
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 20px;
+    overflow-y: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.message {
+    background-color: rgb(140, 124, 148);
+    width: 33%;
+    padding: 10px;
+    margin: 16px 12px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#formContiner {
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#myInputMessage {
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px
+}
